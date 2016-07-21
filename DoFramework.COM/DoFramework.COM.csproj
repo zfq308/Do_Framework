@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A284EDFF-0054-4DD0-B07D-E9BB87BBF57F}</ProjectGuid>
+    <ProjectGuid>{A2F350E2-878D-4D50-B9E1-E70BF4657CE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DoFramework.sysCore</RootNamespace>
-    <AssemblyName>DoFramework.sysCore</AssemblyName>
+    <RootNamespace>DoFramework.COM</RootNamespace>
+    <AssemblyName>DoFramework.COM</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,17 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\DataSourceBase.cs" />
-    <Compile Include="Enum\Enum_DatabaseOutputType.cs" />
-    <Compile Include="Enum\Enum_SQLType.cs" />
-    <Compile Include="Helper\DataTableCompare.cs" />
-    <Compile Include="Other\DatabaseOutputArg.cs" />
-    <Compile Include="Base\ExecutorBase.cs" />
-    <Compile Include="Interface\IComponent.cs" />
-    <Compile Include="Interface\IDBProperties.cs" />
-    <Compile Include="Interface\ITask.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Executor\SqlServerDatabaseExecutorComponent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

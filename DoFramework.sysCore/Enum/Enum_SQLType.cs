@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace DoFramework.sysCore
 {
-    public interface IExecutor
+
+    public enum Enum_SQLType
     {
-        object Do(params object[] objlist);
+        SP = 0,
+        Script = 1,
     }
 
 }

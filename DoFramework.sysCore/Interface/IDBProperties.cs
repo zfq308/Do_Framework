@@ -16,16 +16,4 @@ namespace DoFramework.sysCore
          DatabaseOutputArg databaseOutputArg { get; set; }
     }
 
-    public enum Enum_SQLType
-    {
-        SP = 0,
-        Script = 1,
-    }
-
-    public enum Enum_DatabaseOutputType
-    {
-        Memorycache = 0,
-        CSVFile = 1,
-        ADONetDataSet = 2,
-    }
 }
